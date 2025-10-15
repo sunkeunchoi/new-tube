@@ -1,11 +1,12 @@
 import { ModeToggle } from "@/components/theme-toggle";
 import { Button } from "@/components/ui/button";
-
+import { YouTube } from "developer-icons";
 export default function Home() {
   return (
     <div>
+      <YouTube />
+      <p className="text-xl font-semibold tracking-tight">NewTube</p>
       <ModeToggle />
-      <p className="font-bold text-rose-500">Hello World!</p>
       <Button>Click Me</Button>
     </div>
   );
